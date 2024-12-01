@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI Calculator</title>
+  <link rel="stylesheet" href="style/02-project-BMI-calculator.css">
+</head>
+<body>
+  <div class="main-container">
+  <h1>BMI Calculator</h1>
+  <label for="input">Height</label>
+  <input id="height" type="number" placeholder="Height in CM">
+  <label for="input">Weight</label>
+  <input id="weight" type="number" placeholder="Weight in KG">
+  <button>Calculate</button>
+
+  <div class="result">
+    <h2>Your BMI Score</h2>
+    <h2 id="score">00.00</h2>
+  </div>
+    <div class="text-container">
+      <h4>BMI Weight Guide</h4>
+      <p>Uner Weight = Less than 18.6</p>
+      <p>Normal Range = 18.6 and 24.9</p>
+      <p>OverWeight = Greater than 24.9</p>
+
+    </div>
+  
+  </div>
+  
+  
+
+  <script src="script/02-bmi-scripts.js"></script>
+</body>
+</html>
